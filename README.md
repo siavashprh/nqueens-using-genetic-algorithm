@@ -8,7 +8,7 @@ The problem gets its name from the fact that it originated from the traditional 
 
 Here's an example to illustrate the N-queens problem: Let's consider the 8-queens problem, where we need to place 8 queens on an 8x8 chessboard. One valid solution is:
 
-'''
+```
 . Q . . . . . .
 . . . . Q . . .
 . . . . . . . Q
@@ -17,7 +17,7 @@ Here's an example to illustrate the N-queens problem: Let's consider the 8-queen
 Q . . . . . . .
 . . . . . . Q .
 . . Q . . . . .
-'''
+```
 In this solution, each row contains exactly one queen, and no two queens are in the same column or diagonal. Finding all possible solutions to the N-queens problem is a well-known computational challenge.
 
 Various algorithms can be used to solve the N-queens problem, including brute-force algorithms, backtracking algorithms, and heuristic search algorithms. Brute-force algorithms exhaustively check all possible configurations, which can be computationally expensive for large values of N. Backtracking algorithms, such as the famous "eight queens puzzle" solution, use a recursive approach to systematically explore the solution space, discarding invalid configurations along the way. Heuristic search algorithms employ strategies to guide the search for solutions more efficiently, often using techniques like constraint satisfaction or genetic algorithms.
